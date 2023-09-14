@@ -4,10 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87e8a1b3-eb64-4972-bc51-7724c913bd5f" name="Changes" comment="initial">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2023_9_32_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_10_2023_9_32_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="87e8a1b3-eb64-4972-bc51-7724c913bd5f" name="Changes" comment="ch16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BestLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BestLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BinaryToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BinaryToString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BisectSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BisectSquares.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/CacheMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/CacheMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/ContiguousSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/ContiguousSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Debugger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Debugger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/DivingBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/DivingBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/EnglishInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/EnglishInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/FactorialZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/FactorialZeros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Insertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Intersection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Intersection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/LangtonsAnt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/LangtonsAnt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/LivingPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/LivingPeople.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/MasterMind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/MasterMind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/NumberMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/NumberMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/NumberSwapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/NumberSwapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/PairswithSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/PairswithSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/PatternMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/PatternMatching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/PondSizes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/PondSizes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Rand7fromRand5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Rand7fromRand5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/SmallestDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SmallestDifference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/SubSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SubSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/SumSwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SumSwap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/T9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/T9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/WordFrequencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/WordFrequencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/XMLEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/XMLEncoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/bitOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/bitOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/chapter16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/chapter16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/tNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/tNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +171,7 @@
       <workItem from="1694305146959" duration="67000" />
       <workItem from="1694305230890" duration="793000" />
       <workItem from="1694306044751" duration="35000" />
-      <workItem from="1694524400876" duration="684000" />
+      <workItem from="1694524400876" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -157,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694305770643</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ch16">
+      <option name="closed" value="true" />
+      <created>1694658388049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694658388049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="ch16" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

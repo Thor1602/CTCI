@@ -122,8 +122,8 @@ class chapter16 {
         lruCache.print();
 //        lion and elephant with values 2015 and 2000 are lru so will be removed.
 //        System.out.println("16.29");
-        Calculator calculator = new Calculator("5=3+2");
-        calculator.analyze();
+        Calculator calculator = new Calculator("3+2");
+        System.out.println(calculator.analyze());
     }
 }
 
@@ -781,44 +781,72 @@ class Calculator {
     Calculator(String equation){
         eq=equation;
     }
-    int analyze() {
-        if (eq.contains("=") && eq.contains("+") || eq.contains("-") || eq.contains("*") || eq.contains("/")){
+    Integer analyze() {
+        Integer result = null;
+        if (eq.contains("+") || eq.contains("-") || eq.contains("*") || eq.contains("/")){
             if (!eq.contains("(") && !eq.contains(")")){
                 String[] parts = eq.split("\\d+");
+                String[] values = eq.split("\\D+");
                 System.out.print(Arrays.toString(parts));
-                if (Objects.equals(parts[0], "=")){
+                System.out.println(Arrays.toString(values));
                     // equal sign is first
-                    if (parts[1] == "+"){
+                    if (parts[1].equals("+")){
+                        result = Integer.parseInt(values[0])+Integer.parseInt(values[1]);
 
                     }
-                    else if (parts[1] == "+"){
-
+                    else if (parts[1].equals("+")){
+                        result = Integer.parseInt(values[0])+Integer.parseInt(values[1]);
                     }
-                    else if (parts[1] == "-"){
-
+                    else if (parts[1].equals("-")){
+                        result = Integer.parseInt(values[0])-Integer.parseInt(values[1]);
                     }
-                    else if (parts[1] == "*"){
-
+                    else if (parts[1].equals("*")){
+                        result = Integer.parseInt(values[0])*Integer.parseInt(values[1]);
                     }
-                    else if (parts[1] == "/"){
-
+                    else if (parts[1].equals("/")){
+                        result = Integer.parseInt(values[0])/Integer.parseInt(values[1]);
                     }
-
-                }
-                else {
-                    // equal sign is at the end
-
-
-                }
 
             }
             else {
                 throw new ArithmeticException("equation contains improper characters: ( and )");
             }
         }
-        else {
-            throw new ArithmeticException("equation contains insufficient symbols to be an equation");
+        return result;
+    }
+    Integer analyzeChatGpt() {
+        if (eq.matches(".*[+\\-*/].*")) {  // Check if the expression contains an operator (+, -, *, /)
+            if (!eq.contains("(") && !eq.contains(")")) {
+                String[] parts = eq.split("[+\\-*/]");
+                if (parts.length != 2) {
+                    throw new IllegalArgumentException("Invalid equation format");
+                }
+
+                int num1 = Integer.parseInt(parts[0].trim());
+                int num2 = Integer.parseInt(parts[1].trim());
+
+                char operator = eq.replaceAll("[^+\\-*/]", "").charAt(0);
+
+                switch (operator) {
+                    case '+':
+                        return num1 + num2;
+                    case '-':
+                        return num1 - num2;
+                    case '*':
+                        return num1 * num2;
+                    case '/':
+                        if (num2 == 0) {
+                            throw new ArithmeticException("Division by zero");
+                        }
+                        return num1 / num2;
+                    default:
+                        throw new IllegalArgumentException("Invalid operator: " + operator);
+                }
+            } else {
+                throw new ArithmeticException("Equation contains improper characters: '(' and ')'");
+            }
+        } else {
+            throw new IllegalArgumentException("Equation does not contain any operators (+, -, *, /)");
         }
-        return 0;
     }
 }
