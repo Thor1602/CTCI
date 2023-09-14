@@ -122,6 +122,8 @@ class chapter16 {
         lruCache.print();
 //        lion and elephant with values 2015 and 2000 are lru so will be removed.
 //        System.out.println("16.29");
+        Calculator calculator = new Calculator("5=3+2");
+        calculator.analyze();
     }
 }
 
@@ -783,10 +785,29 @@ class Calculator {
         if (eq.contains("=") && eq.contains("+") || eq.contains("-") || eq.contains("*") || eq.contains("/")){
             if (!eq.contains("(") && !eq.contains(")")){
                 String[] parts = eq.split("\\d+");
+                System.out.print(Arrays.toString(parts));
                 if (Objects.equals(parts[0], "=")){
+                    // equal sign is first
+                    if (parts[1] == "+"){
+
+                    }
+                    else if (parts[1] == "+"){
+
+                    }
+                    else if (parts[1] == "-"){
+
+                    }
+                    else if (parts[1] == "*"){
+
+                    }
+                    else if (parts[1] == "/"){
+
+                    }
 
                 }
                 else {
+                    // equal sign is at the end
+
 
                 }
 
